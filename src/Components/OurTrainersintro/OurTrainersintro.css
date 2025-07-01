@@ -1,0 +1,111 @@
+.trainersIntro-container {
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .trainersIntro-container h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .trainersIntro-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .trainersIntro {
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+  }
+  
+  .trainersIntro-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .trainersIntro-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .trainersIntro-content h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .trainersIntro-content p {
+    font-style: italic;
+    color: #ffffff;
+  }
+  
+  .trainersIntro-nav-arrow {
+    font-size: 2em;
+    /* color: #f36100; */
+    margin: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trainersIntro-nav-arrow:hover {
+    color: #e05000;
+  }
+  
+  .trainersIntro-left-arrow {
+    position: absolute;
+    left: -40px;
+  }
+  
+  .trainersIntro-right-arrow {
+    position: absolute;
+    right: -40px;
+  }
+  
+  /* Keyframe animation for sliding effect */
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-out {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  .trainersIntro-fade {
+    animation: slide-in 0.5s forwards;
+  }
+  
+  .trainersIntro-rating {
+    margin-top: 15px;
+    /* align-items: center; */
+    
+  }
+  

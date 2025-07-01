@@ -1,0 +1,98 @@
+.ourplan_main_container {
+  background-color: #151515;
+  height: auto; 
+  color: #fff;
+  padding: 20px; 
+}
+
+.ourplan_heading_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 40px; 
+}
+
+.ourplan_block_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.ourplan_terms_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  gap: 1rem;
+  padding: 20px; 
+}
+
+.ourplans_separate_containers {
+  border: 1px solid #fff;
+  border-radius: 20px 0px 20px 0px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ourplans_separate_containers:hover {
+  background-color: #f36100;
+  color: #ffffff;
+}
+
+.ourplan_button_container {
+  width: 280px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  margin: 20px;
+  border-radius: 10px 0px 10px 0px;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.ourplan_button_container:hover {
+  background-color: #f36100;
+  border: 1px solid white;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .ourplan_block_container {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .ourplans_separate_containers {
+    width: 90%; 
+    margin-bottom: 20px;
+  }
+
+  .ourplan_terms_container {
+    font-size: 18px; 
+    padding: 15px; 
+  }
+
+  .ourplan_button_container {
+    width: 90%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .ourplan_terms_container {
+    font-size: 16px; 
+    padding: 10px; 
+  }
+
+  .ourplan_button_container {
+    width: 80%; 
+  }
+}

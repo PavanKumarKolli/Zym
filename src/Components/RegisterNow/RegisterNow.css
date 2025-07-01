@@ -1,0 +1,72 @@
+.registernow_background_container {
+  background-image: url("https://t4.ftcdn.net/jpg/03/20/49/25/360_F_320492530_2aeFG0eKU03OM20OD4eLzRte0K6xpw9i.jpg"); 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+
+.register_matter_onimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+  text-align: center; 
+}
+
+.Register_btn {
+  border: 1px solid #f36100;
+  background-color: transparent;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  font-size: 15px; 
+  cursor: pointer;
+}
+
+.Register_btn:hover {
+  background-color: #f36100;
+}
+
+
+@media (max-width: 768px) {
+  .registernow_background_container {
+    /* width: 100%; */
+    height: 50vh;
+    padding: 10px; 
+  }
+
+  .register_matter_onimg {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .Register_btn {
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .registernow_background_container {
+    height: 40vh;
+    padding: 10px; 
+  }
+
+  .register_matter_onimg {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .Register_btn {
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+  }
+}

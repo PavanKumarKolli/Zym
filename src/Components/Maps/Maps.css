@@ -1,0 +1,26 @@
+.Maps-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Maps-maps-location {
+    width: 80%;
+    height: auto;
+}
+
+/* Mobile view (for devices with max-width of 768px) */
+@media (max-width: 768px) {
+    .Maps-maps-location {
+        width: 100%; /* Increase width for better view on smaller screens */
+    }
+}
+
+/* Small Mobile view (for devices with max-width of 480px) */
+@media (max-width: 480px) {
+    .Maps-maps-location {
+        width: 100%; /* Full width for small devices */
+    }
+}

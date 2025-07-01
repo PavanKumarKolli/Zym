@@ -1,0 +1,171 @@
+.services-backgroundimg_container {
+    background-image: url("https://imgscf.slidemembers.com/docs/1/1/281/gym_and_fitness_powerpoint_templates_for_presentation_280221.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.services-h1class {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.services-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.services-block-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px; /* Added gap between service blocks */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center items */
+    align-items: center; /* Center items */
+}
+
+.services-main,
+.services-secondary {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    padding: 10px;
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.services-image-div,
+.services-image-div2 {
+    width: 250px;
+    height: 250px;
+}
+
+.services-image-container,
+.services-image-container2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover their containers */
+    border-radius: 10px; /* Added rounded corners */
+}
+
+.services-description-div,
+.services-description-div2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #fff;
+    justify-content: center; /* Center content vertically */
+}
+
+.services-btn {
+    background-color: transparent;
+    color: #f36100;
+    border: none;
+    margin-top: 18px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .services-h1class {
+        font-size: 48px;
+    }
+
+    .services-block-container {
+        width: 90%;
+        gap: 15px;
+    }
+
+    .services-main,
+    .services-secondary {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-image-div,
+    .services-image-div2 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .services-description-div,
+    .services-description-div2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-h1class {
+        font-size: 36px;
+    }
+
+    .services-image-div,
+    .services-image-div2 {
+        height: 150px;
+    }
+
+    .services-description-div,
+    .services-description-div2 {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-h1class {
+        font-size: 28px;
+    }
+
+    .services-head {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .services-block-container {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .services-main,
+    .services-secondary {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .services-image-div,
+    .services-image-div2 {
+        height: 120px;
+    }
+
+    .services-description-div,
+    .services-description-div2 {
+        gap: 1rem;
+    }
+
+    .services-btn {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}

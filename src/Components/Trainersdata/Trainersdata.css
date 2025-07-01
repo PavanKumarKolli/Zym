@@ -1,0 +1,45 @@
+.carousel-container {
+  width: 80%;
+  margin: auto;
+}
+
+.trainer-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.trainer-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.trainer-slide:hover .trainer-image {
+  transform: scale(1.1);
+}
+
+.trainer-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.trainer-slide:hover .trainer-info {
+  opacity: 1;
+}
+
+.trainer-info h3 {
+  margin: 0;
+}
+
+.trainer-info p {
+  margin: 5px 0 0;
+}
