@@ -12,7 +12,7 @@ export const Aboutus = () => {
     return (
         <div>
             <div className="Aboutus_backgroundimg_container">
-              {/* <h1 className="h1class"> aBOUT</h1> */}
+              <h1 className="h1class"> aBOUT</h1> 
             </div>
             <div>
                 <Whyus/>
