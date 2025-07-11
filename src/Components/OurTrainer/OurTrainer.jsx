@@ -6,7 +6,7 @@ export const OurTrainers=()=>{
         <div>
             
              <div className="Classes_backgroundimg_container">
-              <h1 className="classes-h1class">OUR TEAM</h1>
+              <h1 className="classes-h1class">OUR TEAM MEMBERS</h1>
             </div>
             <TrainerGrid/>
         </div>
